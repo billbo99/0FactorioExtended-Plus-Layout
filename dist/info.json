@@ -1,0 +1,19 @@
+{
+    "name": "0FactorioExtended-Plus-Layout",
+    "version": "1.1.1",
+    "factorio_version": "1.1",
+    "title": "FactorioExtended Plus-Layout",
+    "author": "billbo99",
+    "homepage": "",
+    "dependencies": [
+        "(?)FactorioExtended-Plus-Core",
+        "(?)FactorioExtended-Plus-Equipment",
+        "(?)FactorioExtended-Plus-Logistics",
+        "(?)FactorioExtended-Plus-Machines",
+        "(?)FactorioExtended-Plus-Power",
+        "(?)FactorioExtended-Plus-Storage",
+        "(?)FactorioExtended-Plus-Transport",
+        "(?)FactorioExtended-Plus-Weaponry"
+    ],
+    "description": "Moves all the FE+ crafting recipes into the main 4x tabs"
+}
