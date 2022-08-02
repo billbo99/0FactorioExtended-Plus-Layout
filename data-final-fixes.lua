@@ -14,12 +14,21 @@ merge_table(changes, require("scripts.power"))
 merge_table(changes, require("scripts.storage"))
 merge_table(changes, require("scripts.transport"))
 merge_table(changes, require("scripts.weaponry"))
+merge_table(changes, require("scripts.module"))
+merge_table(changes, require("scripts.LoaderRedux"))
+merge_table(changes, require("scripts.miniloader"))
+merge_table(changes, require("scripts.CompoundSolar"))
 
 for _, row in pairs(changes) do
     if row.type == nil then
         row.type = "item"
     end
 
-    data.raw[row.type][row.name].subgroup = row.subgroup
-    data.raw[row.type][row.name].order = row.order
+    if data.raw[row.type] and data.raw[row.type][row.name] and data.raw[row.type][row.name].subgroup then
+        data.raw[row.type][row.name].subgroup = row.subgroup
+    end
+
+    if data.raw[row.type] and data.raw[row.type][row.name] and data.raw[row.type][row.name].order then
+        data.raw[row.type][row.name].order = row.order
+    end
 end
