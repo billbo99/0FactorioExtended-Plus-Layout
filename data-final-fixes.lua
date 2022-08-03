@@ -17,6 +17,7 @@ merge_table(changes, require("scripts.weaponry"))
 merge_table(changes, require("scripts.module"))
 merge_table(changes, require("scripts.LoaderRedux"))
 merge_table(changes, require("scripts.miniloader"))
+merge_table(changes, require("scripts.beltSorter"))
 merge_table(changes, require("scripts.CompoundSolar"))
 
 for _, row in pairs(changes) do
