@@ -19,6 +19,7 @@ merge_table(changes, require("scripts.LoaderRedux"))
 merge_table(changes, require("scripts.miniloader"))
 merge_table(changes, require("scripts.beltSorter"))
 merge_table(changes, require("scripts.CompoundSolar"))
+merge_table(changes, require("scripts.Stacked_Mining"))
 
 for _, row in pairs(changes) do
     if row.type == nil then

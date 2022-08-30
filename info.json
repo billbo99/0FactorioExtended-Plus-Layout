@@ -1,6 +1,6 @@
 {
     "name": "0FactorioExtended-Plus-Layout",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "factorio_version": "1.1",
     "title": "FactorioExtended Plus-Layout",
     "author": "billbo99",
@@ -8,6 +8,8 @@
     "dependencies": [
         "(?)miniloader",
         "(?)beltSorter",
+        "(?)Stacked_Mining",
+        "(?)CompressedFluids",
         "(?)LoaderReduxForFactorioExtendedPlus",
         "(?)FactorioExtended-Plus-CompoundSolars",
         "(?)FactorioExtended-Plus-Core",
